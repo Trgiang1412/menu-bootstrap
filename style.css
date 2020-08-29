@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
-
 :root {
     --main-font: "Source Sans Pro", sans-serif
 }
@@ -12,4 +11,21 @@
 
 body {
     font-family: var(--main-font);
+}
+
+.section-1 {
+    /* width: 100%; */
+    /* height: 700px; */
+    height: 700px;
+    background-image: url(images/background-image.jpg);
+    /* background-size: cover;
+    background-position: center; */
+    position: relative;
+}
+
+.text-center.menu {
+    /* margin-top: 200px; */
+    position: absolute;
+    top: 39%;
+    left: 10%;
 }
