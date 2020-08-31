@@ -27,7 +27,7 @@ body {
 .text-center.menu {
     /* margin-top: 200px; */
     position: absolute;
-    top: 39%;
+    top: 25%;
     left: 10%;
 }
 
@@ -84,7 +84,7 @@ a {
 }
 
 .text-1 {
-    font-size: 120px;
+    font-size: 100px;
     font-weight: 600;
 }
 
@@ -120,4 +120,9 @@ a {
 .text-4 {
     font-size: 21px;
     font-weight: 60;
+}
+
+/* section-3 */
+.section-3 {
+    margin-top: 150px;
 }
