@@ -1,46 +1,52 @@
-*{
-    padding: 0;
-    margin: 0;
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
+:root {
+    --main-font: "Source Sans Pro", sans-serif
 }
 
-.add{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--main-font);
+}
+
+.section-1 {
     position: relative;
     width: 1330px;
     height: 660px;
-    background-image: url(img/bg-masthead.jpg);
+    background-image: url(images/background-image.jpg);
+    background-size: cover;
+    background-position: center left;
+    
+    
 }
-.menu{
-    margin-top: 200px;
+
+.text-center.menu {
+    /* margin-top: 200px; */
     position: absolute;
+    top: 39%;
+    left: 10%;
+
 }
-.text-1{
-    font-size: 80px;
-    font-weight: 700;
-}
-.text-2{
-    font-size: 25px;
-}
-.button-1{
-    margin-top: 40px;
-   
-}
-.icon{
+.menu-bar-icon{
     position: fixed;
-    z-index: 99999;
+    z-index: 3333;
     width: 50px;
     height: 50px;
-    font-size: 20px;
     background: rgba(52,58,64,.5);
-    color: white;
     text-align: center;
-    line-height: 50px;
     border-radius: 5px;
     left: 95%;
     top: 2%;
-
 }
-.icon:hover{
-    background: rgba(52,58,64,.5);
+.fa-bars{
+font-size: 20px;
+color: white;
+margin-top: 15px;
+cursor: pointer;
 }
 .list{
     position: fixed;
@@ -48,7 +54,7 @@
     width: 250px;
     height: 660px;
     left: 81%;
-    margin-left: 260px;
+
 }
 .nav-link{
     color: white;
@@ -58,8 +64,4 @@
     text-decoration: none;
     list-style: none;
 }
-.btn{
-    margin-top: 30px;
-    padding: 40px 20px 40px 20px ;
-    background-color: #007bff;
-}
+
