@@ -104,7 +104,7 @@ a {
 /* hết section-1 */
 /* section-2 */
 .section-2 {
-    height: 300px;
+    height: 400px;
     margin-top: 150px;
     margin-left: 60px;
 }
@@ -120,5 +120,5 @@ a {
 }
 
 .section-3 {
-    height: 500px;
+    height: 350px;
 }
