@@ -16,7 +16,7 @@ body {
 
 .section-1 {
     position: relative;
-    width: 1330px;
+    width: 1350px;
     height: 660px;
     background-image: url(images/background-image.jpg);
     background-size: cover;
@@ -64,7 +64,9 @@ body {
     left: 104%;
     transition: all .4s ease;
 }
-
+a{
+    text-decoration: none;
+}
 .nav-link {
     color: white;
 }
@@ -76,4 +78,33 @@ body {
 
 .active {
     left: 85%;
+}
+.text-1{
+    font-size: 120px;
+    font-weight: 600;
+}
+.text-2{
+    font-weight: 600;
+}
+.btn{
+    margin-top: 40px;
+    box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+    font-weight: bold;
+}
+.btn-pd{
+    padding: 20px 40px 20px 40px;
+}
+/* hết section-1 */
+/* section-2 */
+.section-2{
+    margin-top: 150px;
+   margin-left: 60px;
+}
+.text-3{
+    font-size: 35px;
+    font-weight: 700;
+}
+.text-4{
+    font-size: 21px;
+    font-weight: 60;
 }
