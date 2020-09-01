@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap");
 :root {
-    --main-font: "Source Sans Pro", sans-serif
+    --main-font: "Source Sans Pro", sans-serif;
+    --height-section-1: 940px;
+    --height-section-2: 538px;
+    --height-section-3: 692px;
+    --height-section-4: 909px;
+    --main-color: #1d809f;
 }
 
 * {
@@ -18,7 +22,7 @@ body {
 .section-1 {
     position: relative;
     width: 1350px;
-    height: 660px;
+    height: var(--height-section-1);
     background-image: url(images/background-image.jpg);
     background-size: cover;
     background-position: center left;
@@ -36,7 +40,7 @@ body {
     z-index: 3333;
     width: 50px;
     height: 50px;
-    background: rgba(52, 58, 64, .5);
+    background: rgba(52, 58, 64, 0.5);
     text-align: center;
     border-radius: 5px;
     left: 95%;
@@ -63,7 +67,7 @@ body {
     width: 250px;
     height: 660px;
     left: 104%;
-    transition: all .4s ease;
+    transition: all 0.4s ease;
 }
 
 a {
@@ -94,7 +98,7 @@ a {
 
 .btn {
     margin-top: 40px;
-    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
     font-weight: bold;
 }
 
@@ -102,11 +106,14 @@ a {
     padding: 20px 40px 20px 40px;
 }
 
+
 /* hết section-1 */
+
+
 /* section-2 */
+
 .section-2 {
-    height: 400px;
-    margin-top: 150px;
+    height: var(--height-section-2);
     margin-left: 60px;
 }
 
