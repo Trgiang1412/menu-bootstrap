@@ -105,7 +105,7 @@ a {
 /* hết section-1 */
 /* section-2 */
 .section-2 {
-    height: 400px;
+    height: 538px;
     margin-top: 150px;
     margin-left: 60px;
 }
@@ -119,7 +119,77 @@ a {
     font-size: 21px;
     font-weight: 60;
 }
-
+/* ket thuc section-2 */
+/* section-3 */
 .section-3 {
-    height: 350px;
+    height: 910px;
+}
+.part-1{
+    padding-top:80px;
+}
+.text-5{
+  color: #f39c12;
+  font-weight: 600;
+margin-bottom: 20px;  
+}
+.text-6{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;  
+}
+.fa-mobile-alt{
+    font-size: 40px;
+   color: royalblue;
+   animation: trgiang 1s infinite;
+}
+.fa-pencil-alt{
+    font-size: 40px;
+    color: royalblue;
+    animation: trgiang 1s infinite;
+}
+.fa-thumbs-up{
+    font-size: 40px;
+    color: royalblue;
+    animation: trgiang 1s infinite;
+}
+.fa-star{
+    font-size: 40px;
+    color: royalblue;
+    animation: trgiang 1s infinite;
+}
+h4{
+   margin-top: 10px;
+}
+.icon{
+    width: 112px;
+    height: 112px;
+    background: white;
+    border-radius: 50%;
+    padding-top:35px;
+    margin-left: 70px;
+
+}
+@keyframes trgiang {
+    from{
+        transform: translateY(10px);
+    }
+    to{
+        transform: translateY(0);
+    }
+
+}
+/* het phan icon */
+.picture{
+    background-image: url(images/background-image-2.jpg);
+    height: 730px;
+    position: relative;
+    background-size: cover;
+}
+.text-center-sc-3{
+    padding-top: 300px;
+    color: black;
+}
+.text-10{
+    font-size: 80px;
+    font-weight: 600;
 }
