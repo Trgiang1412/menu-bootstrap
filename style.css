@@ -17,7 +17,6 @@ body {
 
 .section-1 {
     position: relative;
-    width: 1350px;
     height: 660px;
     background-image: url(images/background-image.jpg);
     background-size: cover;
