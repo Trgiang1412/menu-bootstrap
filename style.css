@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400;1,600&display=swap');
 :root {
-    --main-font: "Source Sans Pro", sans-serif
+    --main-font: "Source Sans Pro", sans-serif;
+    --height-section-1: 940px;
+    --height-section-2: 538px;
+    --height-section-3: 692px;
+    --height-section-4: 909px;
+    --height-menu-bar: 938px;
+    --main-color: #1d809f;
 }
 
 * {
@@ -12,12 +18,49 @@
 body {
     font-family: var(--main-font);
     scroll-behavior: smooth;
+    width: 16 88px;
 }
+
+
+/*menu */
+
+.list {
+    position: fixed;
+    z-index: 2222;
+    width: 250px;
+    height: var(--height-menu-bar);
+    left: 104%;
+    transition: all 0.4s ease;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-link {
+    color: white;
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style: none;
+}
+
+.active {
+    left: 85%;
+}
+
+
+/* het menu */
+
+
+/* section-1 */
 
 .section-1 {
     position: relative;
-    width: 1350px;
     height: 660px;
+    width: 100%;
+    height: var(--height-section-1);
     background-image: url(images/background-image.jpg);
     background-size: cover;
     background-position: center left;
@@ -26,8 +69,8 @@ body {
 .text-center.menu {
     /* margin-top: 200px; */
     position: absolute;
-    top: 25%;
-    left: 10%;
+    top: 31%;
+    left: 15%;
 }
 
 .menu-bar-icon {
@@ -89,6 +132,8 @@ a {
 
 .text-2 {
     font-weight: 600;
+    font-weight: bold;
+    font-style: italic;
 }
 
 .btn {
@@ -98,7 +143,14 @@ a {
 }
 
 .btn-pd {
-    padding: 20px 40px 20px 40px;
+    padding-top: 31px;
+    padding-left: 50px;
+    padding-bottom: 31px;
+    padding-right: 50px;
+}
+
+.btn-primary {
+    background: var(--main-color);
 }
 
 
@@ -111,18 +163,47 @@ a {
     height: 400px;
     margin-top: 150px;
     margin-left: 60px;
+    width: 100%;
 }
 
 .text-3 {
     font-size: 35px;
-    font-weight: 700;
+    font-weight: 600;
+    margin-top: 170px;
+    margin-left: -36px;
+    margin-right: 435px;
 }
 
 .text-4 {
     font-size: 21px;
     font-weight: 60;
+    margin-left: -36px;
+    margin-right: 435px;
+}
+
+.btn-secondary {
+    margin-left: 302px;
+    margin-right: 435px;
 }
 
 .section-3 {
-    height: 350px;
+    height: var(--height-section-3);
+    width: 100%;
+}
+
+@media screen and(min-width: 1360px) {
+    .section-1 {
+        width: 1350px;
+    }
+    .menu-bar-icon {
+        position: fixed;
+        z-index: 3333;
+        width: 50px;
+        height: 50px;
+        background: rgba(52, 58, 64, 0.5);
+        text-align: center;
+        border-radius: 5px;
+        left: 92%;
+        top: 2%;
+    }
 }
