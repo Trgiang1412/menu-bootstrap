@@ -15,7 +15,7 @@ function barButton(e) {
   menu.classList.toggle("active");
   if (buttonMenu) {
     buttonMenu.classList.toggle("fa-times");
-  } else {
+  } else {  
     buttonMenu.classList.remove("fa-bars");
   }
 }
