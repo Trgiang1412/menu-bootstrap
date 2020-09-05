@@ -207,3 +207,24 @@ a {
         top: 2%;
     }
 }
+
+
+/* het phan icon */
+
+.picture {
+    background-image: url(images/background-image-2.jpg);
+    height: 730px;
+    position: relative;
+    background-size: cover;
+}
+
+.text-center-sc-3 {
+    padding-top: 300px;
+    color: black;
+}
+
+.text-10 {
+    font-size: 80px;
+    font-weight: 600;
+}
+/* hết section -3 */
