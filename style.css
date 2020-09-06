@@ -167,8 +167,10 @@ a {
 }
 .icon{
     background: white;
-    
+    width: 112px;
+    height: 112px;
     color: blue;
+    
 }
 .fa-mobile-alt{
     font-size: 20px;
