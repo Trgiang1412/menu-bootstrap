@@ -165,7 +165,14 @@ a {
     margin-left: 60px;
     width: 100%;
 }
-
+.icon{
+    background: white;
+    
+    color: blue;
+}
+.fa-mobile-alt{
+    font-size: 20px;
+}
 .text-3 {
     font-size: 35px;
     font-weight: 600;
@@ -228,3 +235,74 @@ a {
     font-weight: 600;
 }
 /* hết section -3 */
+/* section-4 */
+
+.aov{
+    background-image: url(images/background-image-2.jpg);
+    height: 728px;
+}
+.av-1{
+padding-top: 250px;
+}
+.av-2{
+    font-size: 60px;
+    font-weight: bold;
+}
+.section-4{
+    margin-top: 100px;
+}
+.text-11{
+    color: #e67e22;
+    font-size: 18px;
+    font-weight: bold;
+}
+.text-12{
+    font-weight: bold;
+    font-size: 50px;
+}   
+.box{
+    position: relative;
+}
+.box:hover{
+    transform: scale(0.9, 0.9);
+    transition: 0.5s;
+
+}
+.box-sc4-img-text{
+    position: absolute;
+    background-color: rgba(33,37,41,.2);
+    height: 370px;
+    width: 555px;
+
+}
+.box-sc4-img-text:hover{
+    background-color:rgba(7, 70, 189, 0.918);
+    transition: 2s;
+}
+.box-sc4-text{
+    position: absolute;
+    width:400px;
+    color: white;
+    top: 50%;
+    left: 10%;
+}
+.text-13{
+    font-size: 20px;
+    font-weight: 10;
+}
+/* het section-4 */
+/* section-5 */
+.section-5{
+    margin-top: 200px;
+    height: 400px;
+}
+.sc-5{
+    padding-top: 150px;
+}
+.text-14{
+    font-weight: bold;
+}
+.btn-sc5{
+    margin-left: 20px;
+    padding: 20px 40px 20px 40px;
+}
